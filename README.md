@@ -1,0 +1,5 @@
+# NestRecyclerView
+
+RecyclerViewをMVVM構成で実装する
+
+DataBindingしてキレイに実装したい

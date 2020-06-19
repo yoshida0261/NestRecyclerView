@@ -30,7 +30,7 @@ class ParentAdapter(private val parents: List<ParentModel>) :
         val parent = parents[position]
         holder.textView.text = parent.title
         holder.recyclerView.apply {
-            layoutManager = LinearLayoutManager(holder.recyclerView.context, LinearLayout.VERTICAL, false)
+            layoutManager = LinearLayoutManager(holder.recyclerView.context)
             adapter = ChildAdapter(parent.children)
          //   recycledViewPool = viewPool
         }

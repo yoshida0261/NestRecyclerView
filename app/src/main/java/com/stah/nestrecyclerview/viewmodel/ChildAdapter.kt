@@ -18,6 +18,7 @@ class ChildAdapter(private val children: List<ChildModel>) :
     }
 
     override fun getItemCount(): Int {
+        println("children ${children.size}")
         return children.size
     }
 

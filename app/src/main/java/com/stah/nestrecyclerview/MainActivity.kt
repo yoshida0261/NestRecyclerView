@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity() {
 
         recyclerView.apply {
             layoutManager = LinearLayoutManager(this@MainActivity, LinearLayout.VERTICAL, false)
-            adapter = ParentAdapter(ParentDataFactory.getParents(40))
+            adapter = ParentAdapter(ParentDataFactory.getParents(10))
         }
 
     }
